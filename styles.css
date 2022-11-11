@@ -1,0 +1,37 @@
+.nav-bg {
+    background-color: #663399;
+    border-bottom: 1px solid black;
+}
+
+li a{
+    color: white !important;
+}
+
+/* body {
+    background-color: beige !important;
+} */
+
+.nav-btn {
+    font-weight: bold;
+}
+
+.font-brand {
+    font-size: 32px !important;
+    font-weight: bold;
+}
+
+.card:hover {
+    
+
+}
+
+.btn-color {
+    background-color: #663399 !important;
+    color:white !important;
+    border:none !important;
+}
+
+footer {
+    background-color: #663399;
+    border-bottom: 1px solid black;
+}
