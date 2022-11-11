@@ -21,7 +21,7 @@ li a{
 }
 
 .card:hover {
-    
+    border: 1px solid #663399;    
 
 }
 
@@ -31,7 +31,9 @@ li a{
     border:none !important;
 }
 
+
+
 footer {
     background-color: #663399;
-    border-bottom: 1px solid black;
+    margin-bottom: 0px;
 }
