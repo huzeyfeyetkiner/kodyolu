@@ -55,4 +55,9 @@ footer { /* footer özelliklerini belirlemek için */
     padding: 25px;
 }
 
-/*  */
+/* eğitim içeriği css kısmı */
+
+.icerik-list {
+    text-align: left !important;
+    margin-top: 6%;
+}
