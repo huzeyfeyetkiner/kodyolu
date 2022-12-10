@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>KodYolu</title>
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -19,83 +21,116 @@
       <div class="page"> <!--FOOTER HARİÇ DİĞER İÇERİKLERİ SARAN DİV -->
 
         <!-- NAVBAR/MENÜ HEADER KISMI BAŞLADI -->
-            <div class="nav-bg" id="menu">
-              <div class="container">
-                  <nav class="navbar navbar-expand-lg nav-bg">
-                      <div class="container-fluid">
-                        <a class="navbar-brand text-white font-brand" href="#">Kodyolu</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                              <a class="nav-link fw-bold active" aria-current="page" href="#">Anasayfa</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link fw-bold" href="#">Hakkımızda</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link fw-bold nav-btn" href="#">Giriş Yap</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link fw-bold nav-btn" href="#"> Kayıt Ol</a>
-                            </li>
-                          </ul>                    
-                        </div>
-                      </div>
-                    </nav>
-              
-              </div>
-            </div>
+        <div class="nav-bg" id="menu">
+          <div class="container">
+              <nav class="navbar navbar-expand-lg nav-bg">
+                  <div class="container-fluid">
+                    <a class="navbar-brand text-white font-brand" href="index.html">Kodyolu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold active" aria-current="page" href="index.html">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold" href="#">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold me-2" style="border-right: 1px solid #36016b;" href="#">İletişim</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold nav-btn" href="giris.html">Giriş Yap</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold nav-btn" href="kayit-ol.html"> Kayıt Ol</a>
+                        </li>
+                      </ul>                    
+                    </div>
+                  </div>
+                </nav>
+          
+          </div>
+        </div>
         <!-- NAVBAR/MENÜ HEADER BİTİŞ -->
   
 
 
-        <div class="container">
+        <div class="container mt-5 pb-5" >
             <div class="row text-center mt-3">
                 <div class="col-sm-12">
-                    <img src="images/banner.png" alt="" width="80%">
+                    <a href="#icerik"><img src="images/istockphoto-1167600197-170667a.jpg" alt="" width="80%"></a>
+                    
                 </div>
             </div>
-            <div class="row text-center">
-                <h1>Frontend Yol Haritası</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis itaque autem quos molestias debitis accusamus quidem et nesciunt incidunt error fugiat, eligendi sapiente doloremque consequatur, esse perferendis voluptas neque voluptatibus.</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-8 offset-2">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                          <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                          <label class="form-check-label" for="firstCheckbox">Front-end Giriş Eğitimi | Tanıtım #0</label>                          
-                          <a class="text-dark float-end" href="https://www.youtube.com/watch?v=ga99HJg4c-8" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
-                        </li>
-                        <li class="list-group-item">
-                          <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                          <label class="form-check-label" for="firstCheckbox">Visual Studio Code, HTML, CSS, Bootstrap, GIT ve JavaScript Giriş | Kullanılacak Tüm Dokümanlar #1</label>                          
-                          <a class="text-dark float-end" href="https://www.youtube.com/watch?v=tKQB7twxcOY" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
-                        </li>
-                        <li class="list-group-item">
-                          <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                          <label class="form-check-label" for="firstCheckbox">HTML Nedir? #2</label>                          
-                          <a class="text-dark float-end" href="https://www.youtube.com/watch?v=CsRT-4sucig" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
-                        </li>
-                      </ul>
+            <div id="icerik" class="mt-5 p-5">
+                <div class="row text-center">
+                  <h1>Frontend Yol Haritası</h1>
+                  <p style="font-size:16px;">Günümüzde, front end geliştirme çok geniş bir alan. Öğrenecek çok şey olduğu konusunda hemfikir olduğumuzu düşünüyorum. Tabii ki öğrenme süreci hiçbir zaman sona ermeyecek, her zaman öğrenecek bir şeylerimiz olacak. Ancak öncelikle temel konuları bol pratikle sağlamlaştırırsak uzmanlaşmak istediğimiz alanı seçip daha kolay ilerleyebiliriz. Şimdi en temel konulara bir göz atalım.</p>
                 </div>
+                <div class="row">
+                  <div class="col-sm-10 offset-1">
+                      <ul class="list-group">
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">Front-end Giriş Eğitimi | Tanıtım #0</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=ga99HJg4c-8" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">Visual Studio Code, HTML, CSS, Bootstrap, GIT ve JavaScript Giriş | Kullanılacak Tüm Dokümanlar #1</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=tKQB7twxcOY" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">HTML Nedir? #2</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=CsRT-4sucig" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">HTML Nedir? #2</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=CsRT-4sucig" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">HTML Nedir? #2</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=CsRT-4sucig" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">HTML Nedir? #2</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=CsRT-4sucig" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">HTML Nedir? #2</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=CsRT-4sucig" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">HTML Nedir? #2</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=CsRT-4sucig" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                          <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">HTML Nedir? #2</label>                          
+                            <a class="text-dark float-end" href="https://www.youtube.com/watch?v=CsRT-4sucig" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                          </li>
+                        </ul>
+                  </div>
+              </div>
             </div>
-        </div>
             
+            
+        </div>         
 
 
 
 
   
         
-       
-
-
-
-      </div>
+       </div>
       <!--FOOTER HARİÇ DİĞER İÇERİKLERİ SARAN DİV BİTİŞİ --> 
     
 
@@ -110,7 +145,7 @@
         <footer class="mt-5">
 
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#menu" class="nav-link px-2">Ana Sayfa</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link px-2">Ana Sayfa</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2">Hakkımızda</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2">İletişim</a></li>
           </ul>
@@ -118,7 +153,7 @@
 
 
           <ul class="nav justify-content-center">
-            <li class="nav-item"><a href="#menu" class="nav-link px-2"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-instagram"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-linkedin-in"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-facebook"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-youtube"></i></a></li>

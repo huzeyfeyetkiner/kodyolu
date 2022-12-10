@@ -1,0 +1,90 @@
+/* giris kismi ile ilgili kisim */
+.arrange{
+    border: solid;
+    margin:20 20 20 20;
+    border-color: #663399;
+
+}
+
+
+.ortext{
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #663399; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+.ortext span{
+    background:#fff; 
+    padding:0 10px;
+}
+.icone{
+    width: 10px;
+    
+}
+
+.btn-detay:hover {
+    background-color: #663399 ;
+    color:white;
+    
+}
+
+/* kayit-ol sayfasi ile ilgili kisim */
+.buton-detay{
+    background-color: #663399;
+    color: white;
+    width: 450px;
+}
+.metinduzen{
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formduzen{
+    border:solid;
+    border-radius: 15px;
+    border-color: #663399;
+}
+
+
+
+/* footer ve header  */
+.nav-bg {
+    background-color: #663399;
+    border-bottom: 1px solid black;
+}
+
+li a{
+    color: white !important;
+}
+
+/* body {
+    background-color: beige !important;
+} */
+
+.nav-btn {
+    font-weight: bold;
+}
+
+.font-brand {
+    font-size: 32px !important;
+    font-weight: bold;
+}
+
+.card:hover {
+    border: 1px solid #663399;    
+
+}
+
+.btn-color {
+    background-color: #663399 !important;
+    color:white !important;
+    border:none !important;
+}
+
+
+
+footer {
+    background-color: #663399;
+    margin-bottom: 0px;
+}

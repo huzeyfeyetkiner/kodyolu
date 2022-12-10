@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kodyolu-kayit-ol-demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="giris.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+  <body>
+       
+    <!-- FOOTER SAYFA SONUNA SABİTLENSİN DİYE OLUŞTURDUĞUM DİV -->
+    <div style="min-height:100vh; display:flex; flex-direction:column; justify-content:space-between;">
+
+      <div class="page"> <!--FOOTER HARİÇ DİĞER İÇERİKLERİ SARAN DİV -->
+
+        <!-- NAVBAR/MENÜ HEADER KISMI BAŞLADI -->
+        <div class="nav-bg" id="menu">
+          <div class="container">
+              <nav class="navbar navbar-expand-lg nav-bg">
+                  <div class="container-fluid">
+                    <a class="navbar-brand text-white font-brand" href="index.html">Kodyolu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold active" aria-current="page" href="index.html">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold" href="#">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold me-2" style="border-right: 1px solid #36016b;" href="#">İletişim</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold nav-btn" href="giris.html">Giriş Yap</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold nav-btn" href="kayit-ol.html"> Kayıt Ol</a>
+                        </li>
+                      </ul>                    
+                    </div>
+                  </div>
+                </nav>
+          
+          </div>
+        </div>
+        <!-- NAVBAR/MENÜ HEADER BİTİŞ -->
+  
+
+
+        
+        <div class="container mt-5">
+          <div class="row arrange border">
+            <div class="col-5 ">
+              <div class="offset-1 mt-5">
+                <h5>NEDENBİZ</h5>
+              <ul class="listeduzen">
+                <li>Güncel ve kaliteli Türkçe içerik ve alıştırmalarla kendini geliştir</li>
+                <li> Kariyerine yön verirken yardımcı olacak istasyonlar</li>
+              </ul>
+              </div>
+             
+            </div>
+            <div class="col-6 ">
+              <div class="row g-3 m-4 formduzen ">
+                    <div class="col-6">
+                      <p>Adınız</p>
+                      <input type="text" class="form-control"  aria-label="First name">
+                    </div>
+                    <div class="col-6">
+                      <p>Soyadınız</p>
+                      <input type="text" class="form-control"  aria-label="Last name">
+                    </div>
+                    <form class="row g-3">
+                      <div class="col-12">
+                        <label for="inputEmail4" class="form-label" >Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputPassword4" class="form-label">Şifre</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                        <p>En az 8 karakter kullanın</p>
+                      </div>
+                      <div class="col-12">
+                        <label for="inputPassword4" class="form-label">Şifre Tekrar</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      
+                      <div class="col-6">
+                        <label for="inputTelephone" class="form-label">Telefon Numaranız</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <!-- bu kisim olmadı fikir al cinisyet -->
+                      <div class="col-6">
+                        <p>Cinsiyetiniz</p>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                          <label class="form-check-label" for="inlineRadio1">KADIN</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                          <label class="form-check-label" for="inlineRadio2">ERKEK</label>
+                        </div>
+                      </div>
+                       
+                    </form>
+                    <div class="col-9 ms-3">
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label metinduzen" for="flexSwitchCheckDefault">İşbu Aydınlatma Metni'ni okudum onaylıyorum.</label>
+                      </div>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label metinduzen" for="flexSwitchCheckChecked">İşbu Aydınlatma Metni kapsamında belirtilen amaçlar ile sınırlı olarak kişisel verilerimin KVKK Md.9/1 uyarınca açık rızam dahilinde Google Drive / Microsoft saklama hizmetleri için yurt dışına aktarılmasını onaylıyorum.</label>
+                      </div>
+                    </div>
+    
+                    <!-- Doğum tarihi alma?? -->
+                    
+                     <!-- KAYIT OL Üzerine gelince büyüyor gibi gözüksün patika örenke -->
+                    <div class="col-12">
+                      <button type="submit" class="btn buton-detay mt-2 d-grid gap-2 col-10 mx-auto">Kayıt ol</button>
+                    </div>
+                    <!-- Burası Nasıl OLMALI?? -->
+                    <br>
+                    <div>
+                      <p class="ortext"><span>or</span></p>
+                    </div>
+                    <div>
+                      <button type="button" class="btn arrange btn-detay mt-2 d-grid gap-2 col-10 mx-auto"><span><i class="fa-regular fa-g me-2"></i>With Google
+                      </span></button>
+                      <button type="button" class="btn arrange btn-detay mt-1 d-grid gap-2 col-10 mx-auto"><span><i class="fa-brands fa-github me-2"></i>With Github</span></button>
+                      <button type="button" class="btn arrange btn-detay mt-1 d-grid gap-2 col-10 mx-auto mb-2"><span><i class="fa-brands fa-facebook me-2"></i>With Facebook</span></button>
+                    </div>
+                  </div>
+    
+            </div>
+            
+    
+    
+    
+    
+            
+          </div>
+         </div>
+
+
+
+
+  
+        
+       
+
+
+
+      </div>
+      <!--FOOTER HARİÇ DİĞER İÇERİKLERİ SARAN DİV BİTİŞİ --> 
+    
+
+
+    
+
+
+
+
+      <!-- FOOTER KISMI BAŞLADI -->
+    
+        <footer class="mt-5">
+
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2">Ana Sayfa</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">Hakkımızda</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">İletişim</a></li>
+          </ul>
+
+
+
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-youtube"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-twitter"></i></a></li>
+          </ul> 
+          
+          <p class="text-center text-white">© 2022 Yıldız Teknik Üniversitesi - BÖTE, Kodyolu</p>
+          
+
+        </footer> 
+
+      <!-- FOOTER KISMI BİTİŞ -->
+
+    </div>
+    <!-- FOOTER SAYFA SONUNA SABİTLENSİN DİYE OLUŞTURDUĞUM DİV BİTİŞİ / ?? -->
+     
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
