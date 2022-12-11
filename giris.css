@@ -1,23 +1,37 @@
-/* giris kismi ile ilgili kisim */
-.arrange{
-    border: solid;
-    margin:20 20 20 20;
-    border-color: #663399;
-
+body {
+    font-family: Helvetica, Arial, sans-serif;
 }
 
+
+/* giris kismi ile ilgili kisim */
+.arrange{
+    border: 1px solid #663399;
+    margin:20 20 20 20;
+    
+}
+
+.shadow-class {
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(102,51,153,1);
+-moz-box-shadow: 0px 0px 17px 0px rgba(102,51,153,1);
+box-shadow: 0px 0px 17px 0px rgba(102,51,153,1);
+border-radius: 15px;
+
+}
 
 .ortext{
    width: 100%; 
    text-align: center; 
    border-bottom: 1px solid #663399; 
    line-height: 0.1em;
-   margin: 10px 0 20px;
+   margin: 30px 0 30px;
+   
 }
 
 .ortext span{
     background:#fff; 
     padding:0 10px;
+    
+    
 }
 .icone{
     width: 10px;
@@ -36,6 +50,36 @@
     color: white;
     width: 450px;
 }
+
+.buton-detay:hover{
+    background-color: #663399;
+    color: white;
+    -webkit-box-shadow: 3px 3px 24px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 24px 2px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 24px 2px rgba(0,0,0,0.75);
+
+    
+}
+
+.form-check-input{
+    background-color: white !important;
+    box-shadow: none;
+}
+
+.form-check-input:active{
+    background-color: #663399;
+}
+
+.form-check-input:checked{
+    background-color: #663399 !important;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+
+}
+
 .metinduzen{
     font-size: smaller;
     font-family: Arial, Helvetica, sans-serif;
@@ -46,6 +90,10 @@
     border-color: #663399;
 }
 
+/* .formduzen {
+    border-left: 1px solid black;
+    padding: 2%;
+} */
 
 
 /* footer ve header  */
